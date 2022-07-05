@@ -9,7 +9,7 @@ export default function Create() {
   const [lastName, setLastName] = useState('');
 
   const sendDataToAPI = () => {
-    axios.post(`https://60cdfb0691cc8e00178dc448.mockapi.io/Crud`, {
+    axios.post(`https://62c31da7876c4700f536d056.mockapi.io/crud`, {
       firstName,
       lastName
     }).then(() => {
