@@ -8,7 +8,7 @@ export default function Update() {
     const [lastName, setLastName] = useState('');
     const [ID, setID] = useState(null);
     const sendDataToAPI = () => {
-        axios.put(`https://60cdfb0691cc8e00178dc448.mockapi.io/Crud/${ID}`, {
+        axios.put(`https://62c31da7876c4700f536d056.mockapi.io/crud/${ID}`, {
             firstName,
             lastName
         }).then(() => {
